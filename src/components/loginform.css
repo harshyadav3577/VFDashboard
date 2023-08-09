@@ -18,9 +18,9 @@
 }
 
 .cover {
-    background-color: white;
-    width: 30em;
-    height: 35em;
+    background-color: red;
+    width: 20em;
+    height: 25em;
     position: relative;
     border-radius: 1em;
     box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
@@ -49,8 +49,14 @@
     cursor: pointer; 
 }
 
-.google{background-image: url("../icons/google.png");}
-.facebook{background-image: url("../icons/facebook.png");}
+.google{
+    background-image: url("../icons/google.png");
+    transition: 0.3s;
+}
+.facebook{
+    background-image: url("../icons/facebook.png");
+    transition: 0.3s;
+}
 
 input {
     border: none;
@@ -68,18 +74,31 @@ input:focus {
 }
 
 .login-btn {
-    width: 40;
-    height: 3em;
-    background-color: rgb(32, 177, 255);
-    display: flex;
+    width: 200;
+    height: 2em;
+    background-color: rgb(150, 177, 255); 
     justify-content: center;
     align-items: center;
-    transition: 0.5s;
-    border-radius: 0.25em;
+    transition: 0.3s;
+    border-radius: 0.50em;
     cursor: pointer;
 }
-
+.btnDiv{
+    position: relative;
+}
+.reg-btn {
+    width: 200;
+    height: 2em;
+    background-color: rgb(150, 177, 255);
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    border-radius: 0.50em;
+    cursor: pointer;
+}
 .login-btn:hover { transform: scale(1.25);}
+.reg-btn:hover { transform: scale(1.25);}
+
 
 .text {
     position: relative;

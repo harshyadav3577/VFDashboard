@@ -13,12 +13,14 @@ const LoginFrom = () => {
 
     return (
         <div className="cover">
-            <input type="text" placeholder="username"/>
-            <input type="password" placeholder="password" />
+            <input type="text" placeholder="Username Or Email"/>
+            <input type="password" placeholder="Password" />
 
-            <div className="login-btn"> login</div>
-
-            <p className="text"> or login using </p>
+            <div class="btnDiv">
+                <button class="reg-btn" type="submit">Register</button>
+                <button class="login-btn" type="submit">Login</button>
+            </div>
+            <a className="forPass" href='...'>Forgot Password?</a>
             <div className="alt-login">
                 <div className="facebook">   </div>
                 <div className="google">   </div>
