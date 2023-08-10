@@ -16,6 +16,13 @@
     align-items: center;
 
 }
+.radioBtn {
+    
+
+    background-color: rgb(186, 165, 165);
+    text-align: center;
+   
+}
 
 .cover {
     background-color: red;

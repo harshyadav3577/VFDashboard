@@ -16,13 +16,17 @@ const LoginForm = () => {
         <div className="cover">
             <input type="text" placeholder="Username Or Email"/>
             <input type="password" placeholder="Password" />
+            
+            
             <h3 >User Type</h3>
+            <div className="radioBtn">
             <input type="radio" id="Admin" name="fav_language" value="admin"/>
-            <label for="html">Admin</label>
+            <label for="adin">Admin</label>
             <input type="radio" id="Moderator" name="fav_language" value="moderator"/>
-            <label for="css">Moderator</label>            
+            <label for="moderator">Moderator</label>            
             <input type="radio" id="Viewer" name="fav_language" value="viewer" />
-            <label for="javascript">Viewer</label>
+            <label for="viewer">Viewer</label>
+            </div>
             <div class="btnDiv">
                 <button class="reg-btn" type="submit">Register</button>
                 <button class="login-btn" type="submit">Login</button>
