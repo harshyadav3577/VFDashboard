@@ -2,7 +2,11 @@ import React, { useState }  from "react";
 import "./loginform.css"
 
 
+<<<<<<< HEAD
 const LoginForm = (props) => {
+=======
+const LoginForm = () => {
+>>>>>>> c1140cf09f327fbaeeffe2cd30226d72bce422b9
 
 
     const [popupStyle, showPopup] = useState("hide")
