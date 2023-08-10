@@ -16,11 +16,18 @@
     align-items: center;
 
 }
+.radioBtn {
+    
+
+    background-color: rgb(186, 165, 165);
+    text-align: center;
+   
+}
 
 .cover {
     background-color: red;
-    width: 20em;
-    height: 25em;
+    width: 30em;
+    height: 35em;
     position: relative;
     border-radius: 1em;
     box-shadow: 0 0.188em 1.550em rgb(100, 156, 156);
