@@ -1,7 +1,8 @@
 import React, { useState }  from "react";
 import "./loginform.css"
 
-const LoginFrom = () => {
+
+const LoginForm = () => {
 
 
     const [popupStyle, showPopup] = useState("hide")
@@ -15,7 +16,13 @@ const LoginFrom = () => {
         <div className="cover">
             <input type="text" placeholder="Username Or Email"/>
             <input type="password" placeholder="Password" />
-
+            <h3 >User Type</h3>
+            <input type="radio" id="Admin" name="fav_language" value="admin"/>
+            <label for="html">Admin</label>
+            <input type="radio" id="Moderator" name="fav_language" value="moderator"/>
+            <label for="css">Moderator</label>            
+            <input type="radio" id="Viewer" name="fav_language" value="viewer" />
+            <label for="javascript">Viewer</label>
             <div class="btnDiv">
                 <button class="reg-btn" type="submit">Register</button>
                 <button class="login-btn" type="submit">Login</button>
@@ -30,4 +37,4 @@ const LoginFrom = () => {
     )
 }
 
-export default LoginFrom
+export default LoginForm
