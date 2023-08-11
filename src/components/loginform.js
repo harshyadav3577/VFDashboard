@@ -1,12 +1,7 @@
 import React, { useState }  from "react";
 import "./loginform.css"
 
-
-<<<<<<< HEAD
-const LoginForm = (props) => {
-=======
 const LoginForm = () => {
->>>>>>> c1140cf09f327fbaeeffe2cd30226d72bce422b9
 
 
     const [popupStyle, showPopup] = useState("hide")
@@ -33,7 +28,7 @@ const LoginForm = () => {
             </div>
             <div class="btnDiv">
                 <button class="reg-btn" type="submit">Register</button>
-                <button className="link-btn" onClick={() => props.onFormSwitch('register')}> Login </button>
+                <button class="login-btn" type="submit"> Login </button>
             </div>
             <a className="forPass" href='...'>Forgot Password?</a>
             <div className="alt-login">
